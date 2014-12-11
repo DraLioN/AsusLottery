@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="step1">
+
+        <div id="mainWrapper">
+
+            <div class="logo">
+                <img src="img/asus_logo.png" alt="ASUS In search of incredible" />
+            </div>
+
+            <div class="flip">
+                <div class="card">
+                    <img src="img/blank.png" />
+
+                    <div class="face front">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="face back">
+                        <div class="circle">
+                            <div id="numbersHolder"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setUpMenu">
+                <div class="showHideArrow"></div>
+                <form action="?">
+                    <label for="minValue">Min value:</label>
+                    <input type="text" id="minValue" value="1" />
+                    <label for="maxValue">Max value:</label>
+                    <input type="text" id="maxValue" value="200" />
+                    <button>Confirm</button>
+                </form>
+            </div>
+
+            <div id="imageWrapper">
+                <img id="pic1" src="img/1.png" alt=""/>
+                <img id="pic2" src="img/2.png" alt=""/>
+                <img id="pic3" src="img/3.png" alt=""/>
+            </div>
+
+        </div>
+
+
+
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
